@@ -18,7 +18,7 @@ public class Horse extends ChessPiece {
                     return false;
                 }
 
-                // all positions for horse
+                // Все ходы
                 int[][] positions = new int[][]{
                         {line - 2, column - 1}, {line - 2, column + 1},
                         {line + 2, column - 1}, {line + 2, column + 1},
